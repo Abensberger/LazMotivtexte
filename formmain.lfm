@@ -1,11 +1,14 @@
-object frmmain: Tfrmmain
+object frmmotivtextlist: Tfrmmotivtextlist
   Left = 382
   Height = 448
   Top = 166
-  Width = 558
+  Width = 401
   Caption = 'Motivtextverwaltung'
   ClientHeight = 448
-  ClientWidth = 558
+  ClientWidth = 401
+  Constraints.MinHeight = 448
+  Constraints.MinWidth = 346
+  Position = poScreenCenter
   LCLVersion = '1.4.0.4'
   object Button1: TButton
     Left = 8
@@ -35,12 +38,21 @@ object frmmain: Tfrmmain
     TabOrder = 2
   end
   object Button4: TButton
-    Left = 473
+    Left = 313
     Height = 25
     Top = 413
     Width = 75
     Anchors = [akRight, akBottom]
     Caption = 'Button4'
     TabOrder = 3
+  end
+  object ListView1: TListView
+    Left = 8
+    Height = 398
+    Top = 8
+    Width = 380
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Columns = <>
+    TabOrder = 4
   end
 end

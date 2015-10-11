@@ -33,7 +33,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="2">
+    <Units Count="3">
       <Unit0>
         <Filename Value="LazMotivtexte.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -42,10 +42,15 @@
       <Unit1>
         <Filename Value="formmain.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="frmmain"/>
+        <ComponentName Value="frmmotivtextlist"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="formmain"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="motivtext.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="motivtext"/>
+      </Unit2>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

@@ -5,19 +5,17 @@ unit formmain;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  ComCtrls;
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls;
 
 type
 
-  { Tfrmmotivtextlist }
+  { Tfrmmain }
 
-  Tfrmmotivtextlist = class(TForm)
+  Tfrmmain = class(TForm)
     Button1: TButton;
     Button2: TButton;
     Button3: TButton;
     Button4: TButton;
-    ListView1: TListView;
   private
     { private declarations }
   public
@@ -25,11 +23,9 @@ type
   end;
 
 var
-  frmmotivtextlist: Tfrmmotivtextlist;
+  frmmain: Tfrmmain;
 
 implementation
-
-uses motivtext;
 
 {$R *.lfm}
 
