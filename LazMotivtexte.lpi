@@ -40,11 +40,11 @@
         <UnitName Value="LazMotivtexte"/>
       </Unit0>
       <Unit1>
-        <Filename Value="formmain.pas"/>
+        <Filename Value="formmotivtextlist.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmmotivtextlist"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="formmain"/>
+        <UnitName Value="formmotivtextlist"/>
       </Unit1>
       <Unit2>
         <Filename Value="motivtext.pas"/>
