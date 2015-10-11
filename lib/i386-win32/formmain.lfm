@@ -1,8 +1,46 @@
 object frmmain: Tfrmmain
   Left = 382
-  Height = 411
+  Height = 448
   Top = 166
-  Width = 330
+  Width = 558
   Caption = 'Motivtextverwaltung'
+  ClientHeight = 448
+  ClientWidth = 558
   LCLVersion = '1.4.0.4'
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 413
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    Caption = 'Button1'
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 92
+    Height = 25
+    Top = 413
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    Caption = 'Button2'
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 176
+    Height = 25
+    Top = 413
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    Caption = 'Button3'
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 473
+    Height = 25
+    Top = 413
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Caption = 'Button4'
+    TabOrder = 3
+  end
 end
