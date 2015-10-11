@@ -1,0 +1,8 @@
+object frmmain: Tfrmmain
+  Left = 382
+  Height = 411
+  Top = 166
+  Width = 330
+  Caption = 'Motivtextverwaltung'
+  LCLVersion = '1.4.0.4'
+end
