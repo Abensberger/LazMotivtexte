@@ -1,4 +1,4 @@
-unit motivtext;
+unit motivtexthandler;
 
 {$mode objfpc}{$H+}
 
